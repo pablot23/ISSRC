@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo33.css"> 
+    <title>Ej33</title>
+</head>
+<body>
+    <h2>Crear dos columnas sin utilizar tablas, solo CSS</h2>
+
+    <p>El codigo es el siguiente:</p>
+
+    <pre> #contenedor {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; /* podemos hacer que se ajuste a la pantalla*/
+    }
+    
+    #contenedor div {
+      width: 50%;
+      width: 250px;
+      height: 250px;
+      padding:20px;
+      margin: 20px auto;
+      background-color:silver;
+      border: solid;
+    } </pre>
+    <br>
+    <p>Así queda:</p>
+    <br>
+
+    <div id="contenedor">
+        <div id="contenedor div">
+          <p>Contenido de la primera columna.</p>
+        </div>
+        <div id="contenedor div">
+          <p>Contenido de la segunda columna.</p>
+        </div>
+      </div>
+    <br>
+    
+    <a href="Ejercicios_31-40.html"><input type="button" value="Volver"></a>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body {
+    background-color:aquamarine; 
+}
+#texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        
+        color:rgb(0, 81, 255);
+        font-size:45px;
+        font-family:arial black;
+        background-color: black;
+        
+ }    
+ 

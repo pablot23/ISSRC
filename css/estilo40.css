@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    body{
+    background-color: #ccc;
+    font-family:Century Gothic;
+    }
+    .contenedor{
+    width:80%;
+    max-width:1000px;
+    margin:0 auto;
+    background:blue;
+    overflow:hidden;
+    }
+    header{
+    background:green;
+    margin:20px 0;
+    }
+    header h1{
+    color:silver;
+    padding:20px 0;
+    text-align:center;
+    }
+    #logo{
+        height: 5px;
+        border-radius: 100px;
+       }
+    .main{
+    width:100%;
+    background:orangered;
+    padding:20px;
+    float: left;
+    box-sizing:border-box;
+    }
+    .main img{
+    width:100%;
+    height:auto;
+    }
+ 
+    section{
+        display: flex;
+        width: 600px;
+        height: 430px;
+      }
+      section img{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: 0.8;
+        transition: .4s;
+      }
+      section img:hover{
+        /*cursor: crosshair;*/
+        width: 300px;
+        opacity: 1;
+        filter: contrast(120%);
+      }
+    aside{
+    width:30%;
+    padding:20px;
+    box-sizing:border-box;
+    background:#ccc;
+    float:left;
+    }
+    footer{
+    clear:both;
+    float:left;
+    margin-top:20px;
+    box-sizing:border-box;
+    width:100%;
+    padding:20px;
+    color:#fff;
+    background:#000;
+    }
+    @media screen and (max-width: 800px){
+        .main{width:100%;
+    }
+        .aside{width:100%;
+    }
+        body{ background:#ff8000;
+    }
+    
+    @media screen and (max-width: 400px){
+        .contenedor{width100%;
+    }
+        aside{display:none;
+    }}

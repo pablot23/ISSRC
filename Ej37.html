@@ -1,0 +1,103 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilo37.css"> 
+    <title>Ej37</title>
+</head>
+<body>
+    <h2>Página web responsiva utilizando CSS media queries</h2>
+
+    <p>El codigo es el siguiente:</p>
+
+    <pre> *{
+        margin:0;
+        padding:0;
+        }
+        body{
+        background:#323A46;
+        font-family:Century Gothic;
+        }
+        .contenedor{
+        width:80%;
+        max-width:1000px;
+        margin:0 auto;
+        /*background:blue;*/
+        overflow:hidden;
+        }
+        header{
+        background:#EB4A33;
+        margin:20px 0;
+        }
+        header h1{
+        color:#fff;
+        padding:20px 0;
+        text-align:center;
+        }
+        .main{
+        width:70%;
+        background:#fff;
+        padding:20px;
+        float: left;
+        box-sizing:border-box;
+        }
+        .main img{
+        width:100%;
+        height:auto;
+        }
+        aside{
+        width:30%;
+        padding:20px;
+        box-sizing:border-box;
+        background:#ccc;
+        float:left;
+        }
+        footer{
+        clear:both;
+        float:left;
+        margin-top:20px;
+        box-sizing:border-box;
+        width:100%;
+        padding:20px;
+        color:#fff;
+        background:#000;
+        text-align:center;
+        }
+        @media screen and (max-width: 800px){
+            .main{width:100%;
+        }
+            .aside{width:100%;
+        }
+            body{background:#ff8000;
+        }
+        }
+        @media screen and (max-width: 400px){
+            aside{display:none;
+             
+        } </pre>
+    <br>
+    <p>Así queda:</p>
+    <br>
+<div class="contenedor">
+	<header>
+		<h1>TÍTULO de la PÁGINA<h>
+	</header>
+	<section class="main">
+		<img src="imagenes/moto1.png" alt="moto1">
+		<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquid suscipit quasi explicabo deserunt porro fuga! Hic ex laudantium maiores. Dolore voluptas eligendi amet at et commodi quibusdam modi aut!
+		</p>
+	</section>
+	<aside>
+		<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquid suscipit quasi explicabo deserunt porro fuga! Hic ex laudantium maiores. Dolore voluptas eligendi amet at et commodi quibusdam modi aut!
+		</p>
+	</aside>
+	<aside>
+		<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquid suscipit quasi explicabo deserunt porro fuga! Hic ex laudantium maiores. Dolore voluptas eligendi amet at et commodi quibusdam modi aut!
+		</p>
+	</aside>
+	<footer>
+	© 2024 Página Web. Todos los derechos reservados
+	</footer>
+    <a href="Ejercicios_31-40.html"><input type="button" value="Volver"></a>
+</body>
+</html>

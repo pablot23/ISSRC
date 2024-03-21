@@ -1,0 +1,10 @@
+var numero1 = 4;
+var numero2 = 2;
+var resultado = numero1 + numero2;
+console.log("la suma es: " + resultado + " " + typeof resultado);
+var resultado = numero1 - numero2;
+console.log("la resta es: " + resultado + " " + typeof resultado);
+var resultado = numero1 * numero2;
+console.log("la multiplicación es: " + resultado + " " + typeof resultado);
+var resultado = numero1 / numero2;
+console.log("la división es: " + resultado + " " + typeof resultado);

@@ -1,0 +1,31 @@
+/*#contenedor {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+#contenedor > div {
+    width: 50%;
+    padding: 10px;
+}
+
+#contenedor > div:first-child {
+    margin-right: 20px;
+}*/
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap; /* podemos hacer que se ajuste a la pantalla*/
+  }
+  
+  #contenedor div {
+    width: 50%;
+    width: 250px;
+	height: 250px;
+	padding:20px;
+	margin: 20px auto;
+    background-color:silver;
+    border: solid;
+  }

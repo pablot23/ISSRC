@@ -1,0 +1,87 @@
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 400px;
+    /* Esquema del formulario */
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 2em;
+    background-color: aquamarine;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+  
+  form li + li {
+    margin-top: 1em;
+    }
+  
+    #campo  {
+      color: goldenrod;
+    }
+
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: blue;
+    font-weight:600;
+  }
+  
+  input, textarea {
+    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+    font: 1em sans-serif;
+  
+    /* Tamaño uniforme del campo de texto */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Destacado adicional para elementos que tienen el cursor */
+    border-color: #25eb13;
+  }
+  
+  textarea {
+    /* Alinear los campos de texto multilínea con sus etiquetas */
+    vertical-align: top;
+  
+    /* Proporcionar espacio para escribir texto */
+    height: 5em;
+  }
+  
+  #button {
+    /* Alinear los botones con los campos de texto */
+    padding-left: 5px; /* mismo tamaño que los elementos de la etiqueta */
+    color: blue;
+    /*background-color: aquamarine;*/
+    background-image:-webkit-gradient (top, rgb(238, 255, 0), rgb(238, 18, 18));
+    font-weight:600;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #button:hover {
+    background-color: aqua;
+    text-align: center;
+    text-transform:capitalize;
+  }
+
+  #button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+    margin-left: 1rem;
+  }
+  
+  button{
+    padding-left: 5px;
+  }

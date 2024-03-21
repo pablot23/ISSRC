@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/estilo39.css">
+	<title>Ej39</title>
+</head>
+<body>
+    <h2>Crear dos columnas sin utilizar tablas, solo CSS</h2>
+      
+    <p>El codigo es el siguiente:</p>
+
+    <pre>
+        *{
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background: silver;
+    }
+    
+    header{
+        width: 100%;
+    }
+    
+    .navegacion{
+        width: 1000px;
+        margin: 30px auto;
+        background: #fff;
+    }
+    
+    .navegacion ul{
+        list-style: none;
+    }
+    
+    .menu > li{
+        position: relative;
+        display: inline-block;
+    }
+    
+    .menu > li > a{
+        display: block;
+        padding: 15px 20px;
+        color: #353535;
+        font-family: 'Open sans';
+        text-decoration: none;
+    }
+    
+    .menu li a:hover{
+        color: #CE7D35;
+        transition: all .3s;
+    }
+    
+    /* Submenu*/
+    
+    .submenu{
+        position: absolute;
+        background: #333333;
+        width: 120%;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1.5s;
+    }
+    
+    .submenu li a{
+        display: block;
+        padding: 15px;
+        color: #fff;
+        font-family: 'Open sans';
+        text-decoration: none;
+    }
+    
+    .menu li:hover .submenu{
+        visibility: visible;
+        opacity: 1;
+    }
+     </pre>
+    <br>
+    <p>Así queda:</p>
+     <br>
+    <br>
+	<header>
+		<nav class="navegacion">
+			<ul class="menu">
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Nosotros</a></li>
+				<li><a href="#">Servicios</a>
+					<ul class="submenu">
+						<li><a href="#">Servicio #1</a></li>
+						<li><a href="#">Servicio #2</a></li>
+						<li><a href="#">Servicio #3</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<br>
+    
+    <a href="Ejercicios_31-40.html"><input type="button" value="Volver"></a>
+</body>
+</html>

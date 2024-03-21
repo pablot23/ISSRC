@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo30.css"> 
+    <title>Ej30</title>
+</head>
+<body>
+    <h2>Barra de navegación fija en la parte superior de la página que se mantenga
+        visible al desplazarse hacia abajo</h2>
+
+    <p>El codigo es el siguiente:</p>
+
+    <pre> * {
+      padding: 100;
+      margin: 0;
+    }
+    
+    p {
+      margin-bottom: 20px;
+    }
+    
+    header {
+      background: rgba(0,0,0,0.9);
+      width: 100%;
+      position: fixed; 
+      top:0;
+      z-index: 100;
+    }
+    
+    nav{
+        background-color: #273032;
+        color: #FFF;
+        padding: 20px;
+        display: flex;
+        /*position:fixed;*/
+        }
+       
+      #logo{
+        width: 2rem;
+        }
+    
+      .logo {
+        background-color: rgb(0, 0, 0)
+      }
+      
+      ul {
+        margin: 0px;
+        display: flex;
+        justify-content:center;
+      }
+      
+      li {
+        list-style: none;
+        display: inline;
+        margin-right: 20px;
+      }
+      
+      a {
+        color: pink;
+        text-decoration: none;
+        font-size: 20px;
+      }
+    
+      .contenido {
+        padding-top: 80px;
+      }
+    
+      nav ul li:hover {
+        background: #3ead47;
+      } </pre>
+    <br>
+    <p>Así queda:</p>
+    <br>
+    <header>
+    <nav>
+        <span class="logo"><img id="logo" src="https://www.educaciontrespuntocero.com/wp-content/uploads/2020/04/mejores-bancos-de-imagenes-gratis.jpg" alt=""></span>
+        
+        <ul>
+          <li><a href="#/home">Inicio</a></li>
+          <li><a href="#/products">Productos</a></li>
+          <li><a href="#/about">Acerca de</a></li>
+        </ul>  
+      </nav>
+    </header>
+      <br>
+      <h1>PAGINA CON BARRA FIJA</h1>
+      <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Quam dignissimos et magni incidunt ut cupiditate. Rerum amet
+         adipisci vel alias dolores, blanditiis iste tempore quasi nulla 
+         ab, animi asperiores a</P>
+        <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Quam dignissimos et magni incidunt ut cupiditate. Rerum amet
+        adipisci vel alias dolores, blanditiis iste tempore quasi nulla 
+        ab, animi asperiores a</P>
+        <img src="https://www.educaciontrespuntocero.com/wp-content/uploads/2020/04/mejores-bancos-de-imagenes-gratis.jpg" alt="hoja">
+        <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Quam dignissimos et magni incidunt ut cupiditate. Rerum amet
+        adipisci vel alias dolores, blanditiis iste tempore quasi nulla 
+        ab, animi asperiores a</P>
+
+    <a href="Ejercicios_21-30.html"><input type="button" value="Volver"></a>
+</body>
+</html>

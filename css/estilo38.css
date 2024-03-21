@@ -1,0 +1,15 @@
+body{
+    margin:100px;
+    }
+    .contenedor{
+    height:30px;
+    width:300px;
+    background-color: aqua;
+    border-radius:15px;
+    box-shadow: 20px 20px 10px
+    gray, inset 10px 10px 50px
+    cornflowerblue;
+    }
+    
+    /* box-shadow: offset-x offset-y blur-radius spread-radius; son 4 valores */
+    /* https://uigradients.com/#Titanium*/

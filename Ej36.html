@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo36.css"> 
+    <title>Ej36</title>
+</head>
+<body>
+    <h2>Galería de imágenes con efectos al pasar el
+        mouse</h2>
+
+    <p>El codigo es el siguiente:</p>
+
+    <pre> section{
+  display: flex;
+  width: 600px;
+  height: 430px;
+}
+section img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: .5s;
+}
+
+section img:hover{
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+} </pre>
+    <br>
+    <p>Así queda:</p>
+    <br>
+  <section>
+    
+	<img src="imagenes/moto1.png" alt="moto1">
+	
+	
+	<img src="imagenes/moto2.png" alt="moto2">
+	
+	
+	<img src="imagenes/moto3.png" alt="moto3">
+	
+	
+	<img src="imagenes/moto4.png" alt="moto4">
+  	
+  </section>
+  <br>
+    <a href="Ejercicios_31-40.html"><input type="button" value="Volver"></a>
+</body>
+</html>

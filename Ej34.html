@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo34.css"> 
+    <title>Ej34</title>
+</head>
+<body>
+    <h2>Animaciones CSS a un elemento para que se mueva o cambie de color</h2>
+
+    <p>El codigo es el siguiente:</p>
+
+    <pre>.ojos{
+        width: 300px;
+        height: 250px;
+        /*background-color: ;*/
+        align-self: start;
+        display: flex;
+    }
+    .ojo {
+        width: 125px;
+        height: 225px;
+        border: 3px;
+        border-style: solid;
+        border-color:black;
+        border-radius: 50%;
+        background-color: brown;
+        display:flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .retina{
+        width: 80px;
+        height: 150px;
+        border: 5px solid black;
+        border-radius: 50%;
+        background-color: whitesmoke;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pupila{
+        width: 30px;
+        height: 60px;
+        border: 5px solid black;
+        border-radius: 50%;
+        background-color: black;
+        translate: 0px 0px;
+        transition: all 0.5s;
+    }
+    .pupila:hover{
+        translate: 10px 0px;
+    }
+    .brillo {
+        width: 15px;
+        height: 30px;
+        border: 5px solid black;
+        border-radius: 50%;
+        background-color: white;
+    } </pre>
+    <br>
+    <p>Así queda:</p>
+    <br>
+<div class="ojos">
+    <div class="ojo">
+        <div class="retina">
+            <div class="pupila">
+                <div class="brillo">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ojo">
+        <div class="retina">
+            <div class="pupila">
+                <div class="brillo">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+<a href="Ejercicios_31-40.html"><input type="button" value="Volver"></a>
+</body>
+</html>

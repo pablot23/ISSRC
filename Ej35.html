@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo35.css"> 
+    <title>Ej35</title>
+</head>
+<body>
+    <h2>Estiliza un formulario de búsqueda con un campo de entrada y un botón de búsqueda</h2>
+
+    <p>El codigo es el siguiente:</p>
+
+    <pre>div{
+      margin:0px;
+      display:flex;
+      }
+  #texto{
+      font-family: 'Courier New', Courier, monospace;
+      color:blue;
+      font-weight: bold;
+  }
+  form {
+      /* Centrar el formulario en la página */
+      margin: 0 auto;
+      width: 500px;
+      /* Esquema del formulario */
+      padding: 2em;
+      border: 1px solid greenyellow;
+      border-radius: 2em;
+      background-color: silver;
+    }
+    #submit{
+      color: red;
+      border: solid;
+      }
+  #submit:hover {
+      background-color: aqua;
+      text-align: center;
+      text-transform:capitalize;
+      } 
+    
+    input {
+      font: 12px sans-serif;
+      width: 128px;
+      box-sizing: border-box;
+      border: 1px solid black;
+      border-radius: 5px;
+    }</pre>
+    <br>
+    <p>Así queda:</p>
+    <br>
+        <br>
+      <div>
+        <form action="https://www.google.com/search" method="post" target="_blank">
+        <p id=texto>
+          Búsqueda de música: <input type="search" name="busquedamusica" placeholder="Canción, autor, álbum...">
+          <input id="submit" value="Buscar">
+        </idp>
+        </form>
+    </div>
+
+      <br>
+
+    <a href="Ejercicios_31-40.html"><input type="button" value="Volver"></a>
+</body>
+</html>

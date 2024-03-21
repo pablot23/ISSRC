@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo32.css"> 
+    <title>Ej32</title>
+</head>
+<body>
+    <h2>Encabezado "header" con una imagen de fondo y texto superpuesto</h2>
+
+    <p>El codigo es el siguiente:</p>
+
+    <pre> #header {
+        width: 100%;
+        background: url('../Imagenes/FondoEncabezado.png');
+        background-size: 100%;
+        background-attachment: fixed;
+        opacity: 0.8;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        }
+    header h1{
+        color:red;
+        font-family: 'Courier New', Courier, monospace;
+        } 
+    
+    header nav ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    header nav ul li{
+    display: inline-flex;
+    }
+    header nav ul li a {
+        color:red;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 20px;
+        text-decoration: none;
+        
+    }
+    header nav ul li a:hover{
+        background-color: blue;
+    }
+    </pre>
+    <br>
+    <p>Así queda:</p>
+    <br>
+    <header id="header">
+        <h1>Mi Pagina Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#">PRINCIPAL</a></li>
+                <li><a href="#">ACERCA DE</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <a href="Ejercicios_31-40.html"><input type="button" value="Volver"></a>
+</body>
+</html>

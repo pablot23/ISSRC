@@ -1,0 +1,62 @@
+
+* {
+  padding: 100;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed; 
+  top:0;
+  z-index: 100;
+}
+
+nav{
+    background-color: #273032;
+    color: #FFF;
+    padding: 20px;
+    display: flex;
+    /*position:fixed;*/
+    }
+   
+  #logo{
+    width: 2rem;
+    }
+
+  .logo {
+    background-color: rgb(0, 0, 0)
+  }
+  
+  ul {
+    margin: 0px;
+    display: flex;
+    justify-content:center;
+  }
+  
+  li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    color: pink;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .contenido {
+    padding-top: 80px;
+  }
+
+  nav ul li:hover {
+    background: #3ead47;
+  }
+
+  /*https://www.falconmasters.com/web-design/tutorial-menu-de-navegacion-fijo/*/
+  /*https://programacion.net/articulo/como_crear_un_menu_fijo_en_tres_sencillos_pasos_1674*/

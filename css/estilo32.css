@@ -1,0 +1,49 @@
+/*#header {
+    background-image: url("../Imagenes/FondoEncabezado.png") no-repeat scroll right top transparent;
+    height: 658px;
+    position: relative;
+     width: 100%;
+   }*/
+
+#header {
+    width: 100%;
+    background: url('../Imagenes/FondoEncabezado.png');
+    background-size: 100%;
+    background-attachment: fixed;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    /*z-index: 10;*/
+    }
+header h1{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    /*text-shadow: 15px;*/
+    /*text-align: center;*/
+   
+    /*z-index: 20;*/
+} 
+/*header nav{
+    background-color: cornflowerblue;
+}*/
+header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+display: inline-flex;
+}
+header nav ul li a {
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*display: block;*/
+    padding: 20px;
+    text-decoration: none;
+    
+}
+header nav ul li a:hover{
+    background-color: blue;
+}

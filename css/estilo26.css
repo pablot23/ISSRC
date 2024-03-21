@@ -1,0 +1,23 @@
+#boton {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: Arial black;
+  }
+
+#boton:link{
+  background: yellow;
+}
+
+#boton:visited{ 
+    color:grey
+
+}
+#boton:hover {
+  background: orange;
+}
+
+#boton:active {
+  background: red;
+  color: white;
+}
