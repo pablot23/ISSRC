@@ -37,3 +37,30 @@ if ((lado1==lado2) && (lado1==lado3)) {     // && es Y //
 	
 FinAlgoritmo */
 
+/*// Definir las variables lado1, lado2 y lado3 con las longitudes de los lados del triángulo
+let lado1 = 5;
+let lado2 = 5;
+let lado3 = 5;
+
+// Utilizar la estructura de casos para determinar el tipo de triángulo
+switch (true) {
+  case lado1 === lado2 && lado2 === lado3:
+    console.log("El triángulo es equilátero");
+    break;
+  case lado1 === lado2 || lado1 === lado3 || lado2 === lado3:
+    console.log("El triángulo es isósceles");
+    break;
+  default:
+    console.log("El triángulo es escaleno");
+    break;
+}
+*/
+
+/*let lado1 = 5;
+let lado2 = 5;
+let lado3 = 5;
+
+let tipoTriangulo = lado1 === lado2 && lado2 === lado3 ? "equilátero" : lado1 === lado2 || lado1 === lado3 || lado2 === lado3 ? "isósceles" : "escaleno";
+
+console.log("El triángulo es " + tipoTriangulo);*/
+

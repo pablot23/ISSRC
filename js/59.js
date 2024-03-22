@@ -16,3 +16,14 @@ if (hora >= 12 && hora < 18) {
 
 }
 
+/* let hora = prompt("ingrese una hora en formato 24hs")
+if(hora>=6 && hora <=12){
+  console.log()
+}
+*/
+
+/*const hora = new Date().getHours();
+
+const saludo = hora < 12 ? 'Buenos días' : (hora < 18 ? 'Buenas tardes' : 'Buenas noches');
+
+console.log(saludo);*/
