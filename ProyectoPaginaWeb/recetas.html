@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molinos VIDA</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="molino.ico" type="image/x-icon">
+    <meta name="author" content="Pablo">
+    <meta name="description" content="proyecto de pagina web">
+    <meta name="keywords" content="tutotial, desarrollo, web, pablo">
+    <link rel="stylesheet" href="style.css">
+    <!-- <meta http-equiv="refresh" content="5; http://www.instargram.com/ejemplo"> -->
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+    
+</head>
+<body>
+    
+<header>
+    <h1>MOLINOS VIDA</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="productos.html">PRODUCTOS</a></li>
+            <li><a class="active" href="recetas.html">RECETAS</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+</header>
+<h2>Molinos VIDA, harinas para celíacos</h2>
+
+
+<section>
+    <div>
+        <a href="assets/img/barritas_de_almendras.jpg" target="_blank"> <img src="assets/img/barritas_de_almendras.jpg" </a>
+        <img class="image" src="assets/img/barritas_de_almendras.jpg" alt="barritas_almendras">
+        <div>Barritas con Almendras</div>
+    </div>
+    <div>
+        <img class="image" src="assets/img/galletas_de_avena.jpg" alt="galletas_avena">
+    <div>Galletitas de Avena</div>
+    </div>
+    <div>
+        <video src="assets/video/harinas_elaboracion.mp4" autoplay muted></video>
+    <div>Elaboracion de la Harina</div>
+</div>
+</section>
+
+
+<video src="assets/video/molino.mp4" controls muted></video>
+<video src="assets/video/molino1.mp4" controls muted></video>
+<video src="assets/video/molino2.mp4" controls muted></video>
+
+<hr>
+<footer class="footer">Todos los derechos reservados &copy; 2024 </footer>
+</body>
+</html>

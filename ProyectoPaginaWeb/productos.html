@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molinos VIDA</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="molino.ico" type="image/x-icon">
+    <meta name="author" content="Pablo">
+    <meta name="description" content="proyecto de pagina web">
+    <meta name="keywords" content="tutotial, desarrollo, web, pablo">
+    <link rel="stylesheet" href="style.css">
+    <!-- <meta http-equiv="refresh" content="5; http://www.instargram.com/ejemplo"> -->
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    
+<header>
+    <h1>MOLINOS VIDA</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a class="active" href="productos.html">PRODUCTOS</a></li>
+            <li><a href="recetas.html">RECETAS</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+</header>
+<h2>Molinos VIDA, harinas para celíacos</h2>
+
+<div class="container">
+    <table>
+        <colgroup>
+            <col style="background-color:rgb(207, 207, 207)">
+        </colgroup>
+        <th>Harinas</th>
+        <th>Peso</th>
+        <th>Precios</th>
+        <tr>
+            <td>Arvejas</td>
+            <td>5 kg</td>
+            <td>$ 2500</td>
+        </tr>
+        <tr>
+            <td>Maiz</td>
+            <td>5 kg</td>
+            <td>$ 2000</td>
+        </tr>
+        <tr>
+            <td>Lentejas</td>
+            <td>5 kg</td>
+            <td>$ 2600</td>
+        </tr>
+        <tr>
+            <td>Soja</td>
+            <td>5 kg</td>
+            <td>$ 1950</td>
+        </tr>
+        <tr>
+            <td>Garbanzos</td>
+            <td>5 kg</td>
+            <td>$ 2550</td>
+        </tr>
+        <tr>
+            <td>Arroz</td>
+            <td>5 kg</td>
+            <td>$ 2000</td>
+        </tr>
+        <tr>
+            <td>Avena</td>
+            <td>5 kg</td>
+            <td>$ 2650</td>
+        </tr>
+    </table>
+
+</div>
+
+<hr>
+<footer class="footer">Todos los derechos reservados &copy; 2024 </footer>
+</body>
+</html>
